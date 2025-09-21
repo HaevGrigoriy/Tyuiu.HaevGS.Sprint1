@@ -1,12 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-
-using Tyuiu.HaevGS.Sprint1.Task0.V4.Lib;
+﻿using Tyuiu.HaevGS.Sprint1.Task0.V4.Lib;
 
 namespace Tyuiu.HaevGS.Sprint1.Task0.V4.Test
 {
     [TestClass]
-    public class UnitTest1
+    public sealed class DataServiceTest
     {
         [TestMethod]
         public void ValidExpression()
