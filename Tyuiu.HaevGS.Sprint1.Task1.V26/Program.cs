@@ -14,7 +14,7 @@ internal class Program
         y = Convert.ToDouble(Console.ReadLine());
 
 
-        Console.WriteLine(ds.Calculate());
+        Console.WriteLine(ds.Calculate(x, y));
         Console.ReadLine();
     }
 }
