@@ -8,5 +8,6 @@ namespace Tyuiu.HaevGS.Sprint1.Task0.V4.Lib
 {
     public class DataService
     {
+
     }
 }
