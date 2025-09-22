@@ -1,7 +1,7 @@
 ﻿using Tyuiu.HaevGS.Sprint1.Task2.V27.Lib;
-internal class Program
+class Program
 {
-    private static void Main(string[] args)
+    static void Main(string[] args)
     {   
         DataService ds = new DataService();
         int x;
