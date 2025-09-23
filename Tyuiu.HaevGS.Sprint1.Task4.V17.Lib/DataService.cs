@@ -6,7 +6,7 @@ namespace Tyuiu.HaevGS.Sprint1.Task4.V17.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = 1/(Math.Pow(x, 2) - Math.Pow(y, 5));
+            var res = 1/(Math.Sqrt(Math.Pow(x, 1) - Math.Pow(y, 5)));
             return res;
         }
     }
