@@ -1,4 +1,4 @@
-﻿using Tyuiu.HaevGS.Sprint1.Task7V22.Lib;
+﻿using Tyuiu.HaevGS.Sprint1.Task7.V22.Lib;
 
 namespace Tyuiu.HaevGS.Sprint1.Task7V22.Test
 {
@@ -6,8 +6,14 @@ namespace Tyuiu.HaevGS.Sprint1.Task7V22.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidExpression()
         {
+            DataService ds = new DataService();
+            double x = 1;
+            double y = 2;
+            double wait = 0.75;
+            var res = ds.Calculate(x, y);
+            Assert.AreEqual(wait, res);
         }
     }
 }
