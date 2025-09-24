@@ -11,12 +11,11 @@ namespace Tyuiu.HaevGS.Sprint1.Task6V13.Test
         static bool HasAlphabeticalOrder(string text)
 
         {
-            // запятые и пробелы предусматриваю на всякий случай
+
             text = text.Trim(new char[] { ' ', '.', ',' });
             for (int i = 1; i < text.Length; i++)
             {
-                // если текущий символ не больше предыдущего на единицу
-                // то буквы расположены не по алфавиту
+
                 if (text[i - 1] != text[i] - 1)
                 {
                     return false;

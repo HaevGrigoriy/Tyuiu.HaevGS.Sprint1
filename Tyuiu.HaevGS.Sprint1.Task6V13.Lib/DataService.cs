@@ -7,7 +7,9 @@ namespace Tyuiu.HaevGS.Sprint1.Task6V13.Lib
         public bool CheckWordsAlphabet(string value)
         {
             value = value.Replace(" ", "").ToLower();
+
             bool isSorted = true;
+
             return value;
         }
     }
