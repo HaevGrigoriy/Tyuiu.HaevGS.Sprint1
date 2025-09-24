@@ -8,7 +8,7 @@ namespace Tyuiu.HaevGS.Sprint1.Task7.V22.Lib
         public double Calculate(double x, double y)
         {
             double res = Math.Pow(1 - Math.Tan(0), Math.Atan(0)) + Math.Cos(x - y);
-            return res;
+            return Math.Round(res);
         }
     }
 }
