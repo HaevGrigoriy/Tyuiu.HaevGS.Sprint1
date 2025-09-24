@@ -3,10 +3,13 @@
 using System;
 
 namespace Tyuiu.HaevGS.Sprint1.Task6V13.Test
+
 {
     class Program
     {
+
         static bool HasAlphabeticalOrder(string text)
+
         {
             // запятые и пробелы предусматриваю на всякий случай
             text = text.Trim(new char[] { ' ', '.', ',' });

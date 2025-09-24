@@ -11,4 +11,5 @@ namespace Tyuiu.HaevGS.Sprint1.Task6V13.Lib
             return value;
         }
     }
+
 }
