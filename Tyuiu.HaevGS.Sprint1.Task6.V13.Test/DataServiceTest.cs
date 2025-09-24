@@ -1,11 +1,11 @@
-﻿using Tyuiu.HaevGS.Sprint1.Task6V13.Lib;
+﻿using Tyuiu.HaevGS.Sprint1.Task6.V13.Lib;
 
 using System;
 
-namespace Tyuiu.HaevGS.Sprint1.Task6V13.Test
+namespace Tyuiu.HaevGS.Sprint1.Task6.V13.Test
 
 {
-    class Program
+    class DataServiveTest
     {
 
         static bool HasAlphabeticalOrder(string text)

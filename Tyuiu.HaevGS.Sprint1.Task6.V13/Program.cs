@@ -1,4 +1,4 @@
-﻿using Tyuiu.HaevGS.Sprint1.Task6V13.Lib;
+﻿using Tyuiu.HaevGS.Sprint1.Task6.V13.Lib;
 internal class Program
 {
     private static void Main(string[] args)
