@@ -6,12 +6,13 @@ namespace Tyuiu.HaevGS.Sprint1.Task6.V13.Lib
     {
         public bool CheckWordsAlphabet(string value)
         {
-            value = value.Replace(" ", "").ToLower();
-
-            bool isSorted = true;
-
-            return value;
+            char[] sortedArray = value.ToCharArray();
+            Array.Sort(sortedArray);
+            if (sortedArray.SequenceEqual(value))
+            {
+                return true;
+            }
+            return false;
         }
     }
-
 }
